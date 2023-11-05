@@ -1,0 +1,275 @@
+.article {
+    padding: 15px;
+}
+
+.article-img {
+    position: relative;
+}
+
+.article-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.article-title {
+    margin: 30px 0 20px 0;
+    font-size: 24px;
+    color: #212121;
+    line-height: 1.85em;
+}
+
+.entry-meta {
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    gap: 5px;
+}
+
+.entry-meta span {
+    font-size: 14px;
+    color: #9e9e9e;
+}
+
+.date i,
+.autor i,
+.category i {
+    margin-left: 5px;
+}
+
+.article-dec p {
+    text-align: justify;
+    font-size: 15px;
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+blockquote {
+    margin: 20px 10px !important;
+    border-right: 3px solid var(--primery-color) !important;
+    transition: all 0.3s;
+    font-style: italic;
+    padding: 0 20px 0 0 !important;
+}
+
+blockquote footer {
+    color: #9e9e9e;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+blockquote footer:before {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background: #9e9e9e;
+}
+
+.article .portfolio-resume-detail-technology {
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+.portfolio-resume-detail-technology div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.portfolio-resume-detail-technology span {
+    font-size: 13px;
+    color: #757575;
+    padding: 10px 8px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.article-comment-title {
+    font-size: 24px;
+    margin: 50px 0 40px 0;
+}
+
+.article-comment-right {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.article-comment-img img {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.article-comment-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.article-comment-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.article-comment-name {
+    color: var(--primery-color);
+    transition: all 0.3s;
+}
+
+.article-comment-dec {
+    font-size: 14px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.article-comment-answer {
+    color: #9e9e9e;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.article-comment-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 60px 0 0;
+    margin-top: 25px;
+}
+
+.register-new-comment-title {
+    font-size: 24px;
+    margin: 30px 0 35px 0;
+}
+
+.form-group {
+    position: relative;
+    background: transparent;
+    margin-bottom: 40px;
+}
+
+.form-group .icon {
+    color: #bdbdbd;
+    background-color: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+}
+
+.form-group:focus-within .icon-success {
+    color: var(--primery-color);
+    transition: all 0.3s;
+}
+
+.form-group:focus-within .icon-error {
+    color: var(--red);
+}
+
+.icon-area {
+    top: 0;
+    bottom: 5px !important;
+}
+
+.form-group label {
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #b3b3b3;
+    transition: all 0.3s ease;
+}
+
+.form-group.active label {
+    top: -20px;
+    font-size: 12px;
+}
+
+.form-group:focus-within label {
+    top: -20px;
+    font-size: 12px;
+}
+
+.form-control {
+    box-sizing: border-box;
+    padding-right: 50px;
+    width: 100% !important;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+}
+
+.form-group .form-control-border {
+    position: absolute;
+    height: 2px;
+    left: 50%;
+    right: 50%;
+    z-index: 999;
+    border-bottom: none;
+    bottom: 0;
+    transition: left 0.3s, right 0.3s;
+}
+
+.form-group .form-control-border.success {
+    background-color: var(--primery-color);
+    transition: all 0.3s;
+}
+
+.form-group .form-control-border.error {
+    background-color: var(--red);
+}
+
+.form-group .form-control:focus + .form-control-border {
+    left: 0;
+    right: 0;
+}
+
+.form-control-border-area {
+    bottom: 4px !important;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.button {
+    background-color: var(--primery-color);
+    transition: all 0.3s;
+    color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 0 24px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.8;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+    .article {
+        padding: 30px;
+    }
+
+    .article-wrap {
+        position: relative;
+        background-color: #fff;
+        padding: 30px;
+        margin: -50px 40px 0;
+    }
+}

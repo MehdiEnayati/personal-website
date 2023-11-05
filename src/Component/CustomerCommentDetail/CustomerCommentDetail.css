@@ -1,0 +1,56 @@
+.customers-comment-detail {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.person-profile {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.person-profile div {
+    margin-bottom: 10px;
+}
+
+.person-profile img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.person-name {
+    font-size: 15px;
+    color: #212121;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.company-name {
+    font-size: 10px;
+    line-height: 1.85em;
+    color: #9e9e9e;
+    margin: 0;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.text-comment {
+    border-top: 2px solid var(--primery-color) !important;
+    transition: all 0.3s;
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+    margin-top: -20px;
+}
+
+.text-comment p {
+    font-style: italic;
+    margin: 0;
+    z-index: -1;
+    line-height: 2;
+    text-align: justify;
+}

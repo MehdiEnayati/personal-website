@@ -1,0 +1,45 @@
+.modal-portfolio-resume-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.modal-portfolio-resume-img-active {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s;
+}
+
+.icon-close-modal-img {
+    text-align: center;
+}
+
+.icon-close-modal-img i {
+    cursor: pointer;
+    color: var(--white);
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.img-portfolio-resume {
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-portfolio-resume img {
+    height: 100%;
+    /*width: 100%;*/
+}

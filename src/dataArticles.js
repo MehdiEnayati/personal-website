@@ -1,0 +1,68 @@
+let articles = [
+    {
+        id: 1,
+        title: "عنوان نمایشی مطلب بلاگ1",
+        img: "/img/blog_post_1.jpg",
+        day: '8',
+        month: 'بهمن',
+        postInfoDec: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم',
+    },
+    {
+        id: 2,
+        title: "عنوان نمایشی مطلب بلاگ2",
+        img: "/img/blog_post_2.jpg",
+        day: '5',
+        month: 'اسفند',
+        postInfoDec: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم',
+    },
+    {
+        id: 3,
+        title: "عنوان نمایشی مطلب بلاگ3",
+        img: "/img/blog_post_3.jpg",
+        day: '12',
+        month: 'اردیبهشت',
+        postInfoDec: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم',
+    },
+    {
+        id: 4,
+        title: "عنوان نمایشی مطلب بلاگ4",
+        img: "/img/blog_post_4.jpg",
+        day: '15',
+        month: 'خرداد',
+        postInfoDec: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم',
+    },
+    {
+        id: 5,
+        title: "عنوان نمایشی مطلب بلاگ5",
+        img: "/img/blog_post_5.jpg",
+        day: '2',
+        month: 'اردیبهشت',
+        postInfoDec: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم',
+    },
+    {
+        id: 6,
+        title: "عنوان نمایشی مطلب بلاگ6",
+        img: "/img/blog_post_6.jpg",
+        day: '17',
+        month: 'تیر',
+        postInfoDec: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم',
+    },
+    {
+        id: 7,
+        title: "عنوان نمایشی مطلب بلاگ7",
+        img: "/img/blog_post_7.jpg",
+        day: '3',
+        month: 'آبان',
+        postInfoDec: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم',
+    },
+    {
+        id: 8,
+        title: "عنوان نمایشی مطلب بلاگ8",
+        img: "/img/blog_post_8.jpg",
+        day: '17',
+        month: 'دی',
+        postInfoDec: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم',
+    },
+]
+
+export default articles;

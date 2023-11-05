@@ -1,0 +1,193 @@
+.top-home {
+    background-color: var(--primery-color);
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.top-home:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("https://v3dboy.ir/previews/html/procard/images/main_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.img-home {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border: 5px solid #ffffff;
+}
+
+.img-home img {
+    width: 100%;
+}
+
+.top-home-bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-home {
+    margin-top: 20px;
+}
+
+.title-home h2 {
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+.Typewriter {
+    color: var(--white);
+    margin: 25px 0;
+    max-width: 240px;
+    line-height: 2;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bottom-home {
+    padding: 15px;
+}
+
+.bottom-home-top .btn-download-resume {
+    text-align: right;
+    margin: 35px 0 40px 0;
+}
+
+.aboute-me-title h2 {
+    font-size: 1.3rem;
+}
+
+.aboute-me-title span {
+    color: var(--primery-color);
+    transition: all 0.3s;
+}
+
+.aboute-me-text {
+    margin-top: 20px;
+}
+
+.aboute-me-text p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+.infos-person {
+    margin-top: 20px;
+}
+
+.info-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px 15px;
+}
+
+.info-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    flex: 1;
+}
+
+.value {
+    font-size: 14px;
+    color: var(--gray);
+    line-height: 30px;
+    flex: 2;
+}
+
+.email {
+    color: var(--primery-color);
+    transition: all 0.3s;
+}
+
+@media (min-width: 768px) {
+    .top-home {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 300px;
+    }
+
+    .img-home {
+        width: 25%;
+        margin-top: 0;
+    }
+
+    .title-home h2 {
+        font-size: 3rem;
+    }
+
+    .social-media a {
+        padding: 12px;
+    }
+}
+
+@media (min-width: 567px) {
+    .bottom-home {
+        padding: 30px;
+    }
+
+    .info-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .Typewriter {
+        margin: 25px 0 35px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .bottom-home {
+        display: flex;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    .bottom-home-top {
+        flex: 1;
+    }
+
+    .info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .infos-person {
+        margin: 0;
+        flex: 1;
+    }
+
+    .info-list li {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-home {;
+        margin: 80px 0 0 0;
+    }
+}

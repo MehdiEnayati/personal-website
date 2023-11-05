@@ -1,0 +1,125 @@
+@import "reset.min.css";
+
+@font-face {
+    font-family: iranSans;
+    src: url("./fonts/IRANSans/IRANSansWeb.woff");
+}
+
+:root {
+    --white: #ffffff;
+    --gray: #9e9e9e;
+    --blue: #2196F3;
+    --red: #F44336;
+    --purple: #7e6df6;
+    --green: #2eca7f;
+    --yellow: #FBC02D;
+    --orange: #FF9800;
+    --black: #000000;
+    --brown: #A52A2A;
+    --primery-color: #FF9800;
+}
+
+#body.gray {
+    --primery-color: #9e9e9e;
+}
+
+#body.blue {
+    --primery-color: #2196F3;
+}
+
+#body.red {
+    --primery-color: #F44336;
+}
+
+#body.purple {
+    --primery-color: #7e6df6;
+}
+
+#body.green {
+    --primery-color: #2eca7f;
+}
+
+#body.yellow {
+    --primery-color: #FBC02D;
+}
+
+#body.orange {
+    --primery-color: #FF9800;
+}
+
+#body.black {
+    --primery-color: #000000;
+}
+
+#body.brown {
+    --primery-color: #A52A2A;
+}
+
+* {
+    direction: rtl;
+    font-family: iranSans;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.main {
+    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 995;
+    max-width: 992px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--white);
+    transition: all 1s;
+}
+
+.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.top-page {
+    background-color: var(--primery-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.3s;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.top-page:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("https://v3dboy.ir/previews/html/procard/images/main_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.title-page {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: var(--white);
+}
+
+.bottom-page {
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    .bottom-page {
+        padding: 30px;
+    }
+}

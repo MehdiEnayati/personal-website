@@ -1,0 +1,38 @@
+.app {
+    background-image: url("/public/img/main_bg_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.main-person {
+    padding: 30px;
+    position: relative;
+}
+
+.main-person:before {
+    content: "";
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url("https://v3dboy.ir/previews/html/procard/images/main_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    opacity: 1;
+}
+
+.modal-overflow {
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    .main-person {
+        padding: 0 0 30px 0;
+    }
+}

@@ -1,0 +1,16 @@
+.portfolio-items {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 576px) {
+    .portfolio-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .portfolio-item {
+        margin: 0 0 0 auto;
+    }
+}

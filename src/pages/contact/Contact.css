@@ -1,0 +1,91 @@
+.contact-title {
+    font-size: 21px;
+    margin: 5px 0 25px;
+    color: #212121;
+    font-weight: 600;
+    line-height: 1.85em;
+}
+
+.contact .toast {
+    top: 65px;
+    right: 10px;
+}
+
+.contact-title span {
+    color: var(--primery-color);
+    transition: all 0.3s;
+}
+
+.svg-map-country {
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info-detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-info-detail i {
+    color: var(--primery-color);
+    transition: all 0.3s;
+    background-color: #fafafa;;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info-detail span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.contact-me-title {
+    font-size: 21px;
+    margin: 20px 0 25px;
+    color: #212121;
+    font-weight: 600;
+    line-height: 1.85em;
+}
+
+.contact-me-title span {
+    color: var(--primery-color);
+    transition: all 0.3s;
+}
+
+@media (min-width: 768px) {
+    .contact {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .contact-title {
+        margin: 0;
+    }
+
+    .contact-me-title {
+        margin: 0;
+    }
+
+    .contact-wrap {
+        flex: 1;
+    }
+
+    .contact-me {
+        flex: 1;
+    }
+}

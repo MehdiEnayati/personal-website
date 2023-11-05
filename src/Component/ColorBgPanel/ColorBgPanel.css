@@ -1,0 +1,92 @@
+.show-and-hide-bg-color-panel {
+    position: fixed;
+    right: 0;
+    top: 120px;
+    z-index: 998;
+    background-color: var(--white);
+    font-size: 22px;
+    padding: 10px 12px 6px 12px;
+    border: 1px solid #d5d5d5;
+    cursor: pointer;
+}
+
+.show-and-hide-bg-color-panel svg {
+    transition: all 0.3s;
+}
+
+.show-and-hide-bg-color-panel:hover svg {
+    transform: rotate(360deg);
+}
+
+.color-bg-panel {
+    position: fixed;
+    right: -100px;
+    top: 174px;
+    z-index: 999;
+    background-color: var(--white);
+    border: 1px solid #d5d5d5;
+    padding: 20px 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.active-color-bg-panel {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.title-color-panel {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.colors span {
+    width: 45px;
+    height: 30px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.black {
+    background-color: var(--black);
+}
+
+.gray {
+    background-color: var(--gray);
+}
+
+.brown {
+    background-color: var(--brown);
+}

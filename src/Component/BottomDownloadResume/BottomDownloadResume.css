@@ -1,0 +1,17 @@
+.btn-download-resume {
+    margin-top: 20px;
+}
+
+.btn-download-resume button {
+    background-color: var(--white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-download-resume button:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}

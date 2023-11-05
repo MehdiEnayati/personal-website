@@ -1,0 +1,133 @@
+.services-title {
+    font-size: 1.5rem;
+    color: var(--primery-color);
+    margin: 20px 10px 30px 0;
+    transition: all 0.3s;
+}
+
+.services-title span {
+    color: black;
+}
+
+.customers {
+    margin: 60px 0;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.company-logo a {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.company-logo img {
+    width: 100%;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+.company-logo img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.customers-comment {
+    margin-bottom: 60px;
+}
+
+.slider-pagination {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    color: #555;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:first-child {
+    margin-left: 8px;
+}
+
+.btn:hover {
+    background-color: var(--primery-color);
+}
+
+.icon-slider {
+    color: var(--white) !important;
+}
+
+.title-services {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.price-detail:nth-child(1) {
+    margin: 40px auto;
+}
+
+.price-detail:nth-child(3) {
+    margin: 40px auto;
+}
+
+.swiper-wrapper {
+    height: 210px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primery-color) !important;
+    transition: all 0.3s !important;
+}
+
+@media (min-width: 768px) {
+    .services-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    .services-detail {
+        width: calc(50% - 20px);
+        margin: 20px auto;
+    }
+
+    .customers-comment-dec {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .price-services-detail {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .services-detail {
+        width: calc(25% - 20px);
+    }
+
+    .services-detail {
+        margin: 0;
+    }
+}
