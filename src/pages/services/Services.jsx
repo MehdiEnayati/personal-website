@@ -112,7 +112,7 @@ export default function Services() {
                                 <CustomerCommentDetail
                                     img="/img/testimonial_photo_3.jpg"
                                     title="محمد غفاری"
-                                    nameCompany="شرکت آپارات"
+                                    nameCompany="شرکت بزرگ یاماها صد سازی"
                                     textComment="                    لورم ایپسوم متن
                                             ساختگی با تولید سادگی نامفهوم
                                          از صنعت چاپ و با استفاده از طراحان گرافیک است."
@@ -129,14 +129,6 @@ export default function Services() {
                                 />
                             </SwiperSlide>
                         </Swiper>
-                        {/*<div className="slider-pagination">*/}
-                        {/*    <div className="btn swiper-button-prev">*/}
-                        {/*        <GrNext className="icon-slider"/>*/}
-                        {/*    </div>*/}
-                        {/*    <div className="btn swiper-button-next">*/}
-                        {/*        <GrPrevious className="icon-slider"/>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                     </div>
                 </div>
                 <div className="price-services">
